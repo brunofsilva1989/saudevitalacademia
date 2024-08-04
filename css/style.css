@@ -1,0 +1,198 @@
+/* Variáveis da página */
+:root {
+    --orange: #E8753A;
+    --brown: #A23C19;
+}
+
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: var(--orange) !important; /* Cor laranja do logotipo */
+    color: #fff !important;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .logo {
+    max-height: 70px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--brown) !important; /* Cor marrom do logotipo */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: var(--orange) !important; /* Cor laranja do logotipo */
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #fff !important;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    color: #333;
+}
+
+#about h2 {
+    color: var(--brown); /* Cor marrom do logotipo */
+}
+
+/* Services Section */
+#services {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#services h2 {
+    color: var(--brown); /* Cor marrom do logotipo */
+}
+
+#services i {
+    color: var(--orange); /* Cor laranja do logotipo */
+}
+
+/* Trainers Section */
+#trainers {
+    background-color: #fff;
+    color: #333;
+}
+
+#trainers h2 {
+    color: var(--brown); /* Cor marrom do logotipo */
+}
+
+#trainers img {
+    border: 3px solid var(--orange); /* Cor laranja do logotipo */
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#contact h2 {
+    color: var(--brown); /* Cor marrom do logotipo */
+}
+
+#contact .form-control {
+    border: 1px solid var(--brown); /* Cor marrom do logotipo */
+}
+
+#contact .btn-primary {
+    background-color: var(--orange); /* Cor laranja do logotipo */
+    border-color: var(--orange);
+}
+
+#contact .btn-primary:hover {
+    background-color: var(--brown); /* Cor marrom do logotipo */
+    border-color: var(--brown);
+}
+
+/* Footer */
+footer {
+    background-color: var(--brown) !important; /* Cor marrom do logotipo */
+    color: #fff !important;
+    text-align: center !important;
+    padding: 10px 0 !important;
+}
+
+footer p {
+    margin: 0 !important;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    header .logo {
+        max-height: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .nav-link {
+        font-size: 1.2em;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.5em;
+    }
+
+    .jumbotron p {
+        font-size: 1.5em;
+    }
+
+    #about h2 {
+        font-size: 2em;
+    }
+
+    #about p {
+        font-size: 1.5em;
+    }
+
+    #services h2 {
+        font-size: 2em;
+    }
+
+    #services p {
+        font-size: 1.5em;
+    }
+
+    #trainers h2 {
+        font-size: 2em;
+    }
+
+    #trainers p {
+        font-size: 1.5em;
+    }
+
+    #contact h2 {
+        font-size: 2em;
+    }
+
+    #contact p {
+        font-size: 1.5em;
+    }
+
+    #contact .form-control {
+        font-size: 1.5em;
+    }
+
+    #contact .btn-primary {
+        font-size: 1.5em;
+    }
+
+    footer p {
+        font-size: 1.5em;
+    }
+}
